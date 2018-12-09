@@ -33,7 +33,7 @@ public class CPropietario {
 		return servicio.mostrarP(rut);
 	}
 	@GetMapping("/propietarios")
-	public List<MPropietario> muestraTodos (){
+	public List<MPropietario> muestraTodosProp(){
 		return servicio.listarPropietarios();
 	}
 	@DeleteMapping("/eliminarpropietario/{rut}")
